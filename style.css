@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #9B7EBD;
+    margin: 0;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.main1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+.main2 {
+    background-color: #EEEEEE;
+    height: 380px;
+    width: 450px;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px black;
+}
+.main3 p {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 22px;
+    color: red;
+}
+.main3 h5 {
+    padding-left: 350px;
+    padding-top: 20px;
+    color: #3B1E54;
+    font-size: 15px;
+}
+h1 {
+    text-align: center;
+    padding-top: 20px;
+    color: #3B1E54;
+    margin-top: 20px;
+}
+input {
+    margin-left: 60px;
+    height: 50px;
+    width: 310px;
+    margin-top: 20px;
+    outline: none;
+    border: 3px solid #D4BEE4;
+    text-align: center;
+}
+input::placeholder {
+    font-size: 20px;
+    color: rgb(190, 186, 186);
+}
+#btn {
+    height: 40px;
+    width: 310px;
+    margin-left: 60px;
+    background-color: #D4BEE4;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px black;
+}
+#btn1 {
+    margin-left: 160px;    
+    margin-top: 20px; 
+    height: 40px;
+    width: 120px;
+    background-color:  #3B1E54;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px black;
+}
+@media (max-width: 600px) {
+    body {
+        padding: 10px; /* Add some padding */
+    }
+
+    .main2 {
+        width: 280px; /* Make the main container responsive */
+        height: 340px;
+        padding-left: 0px;
+        margin-top: 50px; /* Allow height to adjust */
+    }
+
+    .main3 p {
+        font-size: 14px; /* Smaller font size for readability */
+        margin-top: 40px; /* Less margin for space */
+    }
+
+    .main3 h5 {
+        padding-left: 20px; /* Adjust padding for smaller screens */
+        font-size: 14px; /* Smaller font size */
+    }
+
+    h1 {
+        font-size: 18px; /* Adjust heading size */
+    }
+
+    input {
+        width: 230px; /* Full width for inputs */
+        margin-left:25px ; /* Remove left margin */
+    }
+    input::placeholder {
+        font-size: 15px;
+    }
+    #btn{
+        width: 230px; /* Full width for inputs */
+        margin-left:25px ;
+    }
+    #btn1 {
+        margin-left: 80px;
+    }
+}
